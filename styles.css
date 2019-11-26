@@ -5,15 +5,13 @@ body {
     background-position: center;
     text-align: center;
 }
-h1 {
-    text-align: center;
-}
-.tile {
+
+.puzzle-piece {
     border: 3px solid black;
     height: 100px;
     width: 100px;
     float: left;
-    margin: 3px;
+    margin: 2px;
 }
 
 #puzzle_board {
@@ -23,27 +21,30 @@ h1 {
     border: 3px solid black;
     margin: 0 auto;
 }
-button {
-    width: 60px;
+#shuffleBtn {
+    width: 90px;
     height: 30px;
     margin: 20px;
 }
 
-#puzzle-piece1 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece2 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece3 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece4 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece5 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece6 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece7 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece8 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece9 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece10 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece11 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece12 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece13 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece14 {background-image: url("gamebg.jpeg"); background-position: top left}
-#puzzle-piece15 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece1 {background-image: url("gamebg.jpg"); background-position: 0 0; cursor: pointer}
+#puzzle-piece2 {background-image: url("gamebg.jpg"); background-position: 30% 0; cursor: pointer}
+#puzzle-piece3 {background-image: url("gamebg.jpg"); background-position: 60% 0; cursor: pointer}
+#puzzle-piece4 {background-image: url("gamebg.jpg"); background-position: 90% 0; cursor: pointer}
+#puzzle-piece5 {background-image: url("gamebg.jpg"); background-position: 0 30%; cursor: pointer}
+#puzzle-piece6 {background-image: url("gamebg.jpg"); background-position: 30% 30%; cursor: pointer}
+#puzzle-piece7 {background-image: url("gamebg.jpg"); background-position: 60% 30%; cursor: pointer}
+#puzzle-piece8 {background-image: url("gamebg.jpg"); background-position: 90% 30%; cursor: pointer}
+#puzzle-piece9 {background-image: url("gamebg.jpg"); background-position: 0 60%; cursor: pointer}
+#puzzle-piece10 {background-image: url("gamebg.jpg"); background-position: 30% 60%; cursor: pointer}
+#puzzle-piece11 {background-image: url("gamebg.jpg"); background-position: 60% 60%; cursor: pointer}
+#puzzle-piece12 {background-image: url("gamebg.jpg"); background-position: 90% 60%; cursor: pointer}
+#puzzle-piece13 {background-image: url("gamebg.jpg"); background-position: 0 90%; cursor: pointer}
+#puzzle-piece14 {background-image: url("gamebg.jpg"); background-position: 30% 90%; cursor: pointer}
+#puzzle-piece15 {background-image: url("gamebg.jpg"); background-position: 60% 90%; cursor: pointer}
 #puzzle-piece16 {background-color: lightgray;}
 
+.demo-piece{
+    background-color: lightgray;
+}
 
