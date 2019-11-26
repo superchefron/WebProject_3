@@ -17,7 +17,6 @@ h1 {
 }
 
 #puzzle_board {
-    background-color: ghostwhite;
     overflow: auto;
     width: fit-content;
     height: fit-content;
@@ -29,3 +28,22 @@ button {
     height: 30px;
     margin: 20px;
 }
+
+#puzzle-piece1 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece2 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece3 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece4 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece5 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece6 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece7 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece8 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece9 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece10 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece11 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece12 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece13 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece14 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece15 {background-image: url("gamebg.jpeg"); background-position: top left}
+#puzzle-piece16 {background-color: lightgray;}
+
+
